@@ -12722,7 +12722,7 @@ html {
 }
 
 .foi-header.landing-header {
-  background-image: url("../images/bg_1@2x.png"), url("../images/Bg_2@2x.png");
+  background-image: url("#!"), url("../../../public/assets/images/Teste-Photoroom.png");
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: 167px, 65%;

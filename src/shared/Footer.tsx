@@ -28,7 +28,7 @@ const Footer = () => {
           <div>
             <button className="btn btn-app-download mr-2">
               <Image
-                src="/assets/images/ios.svg"
+                src="./styles/images/ios.svg"
                 alt="App store"
                 width={135}
                 height={40}
@@ -102,21 +102,21 @@ const Footer = () => {
           </p>
           <p>All rights reserved.</p>
           <nav className="social-menu">
-            {['facebook', 'instagram', 'twitter', 'youtube'].map((platform) => (
-              <a
-                href="#!"
-                key={platform}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src={`/assets/images/${platform}.svg`}
-                  alt={platform}
-                  width={24}
-                  height={24}
-                />
-              </a>
-            ))}
+            {/* <Image
+              src="" alt="facebook"
+            />
+
+            <Image
+              src="" alt="instagram"
+            />
+
+            <Image
+              src="assets/images/twitter.svg" alt="twitter"
+            />
+
+            <Image
+              src="assets/images/twitter.svg" alt="twitter"
+            /> */}
           </nav>
         </div>
       </div>
